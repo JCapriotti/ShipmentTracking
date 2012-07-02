@@ -1,0 +1,18 @@
+{
+	"name": "Shipment Tracking",
+	"version": "1.0",
+	"background_page": "background.html",
+	"description": "Allows you to keep a log of shipment tracking numbers and quickly search for their status.",
+	"browser_action": {
+		"default_icon": "icon16.png",
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"permissions": [
+		"contextMenus"
+	]
+}
